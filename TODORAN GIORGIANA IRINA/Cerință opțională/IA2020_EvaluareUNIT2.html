@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<title>IA2020_EvaluareUNIT2</title>
+<style>
+
+.nume 
+{ color: #f2f2f2;
+  border: 5px solid black;
+  font-size: 15px;
+  text-align: center;
+  background-color:#404040;
+   font-style: italic;
+   }
+   
+   h2 {color: #8B008B;
+   text-indent: 20px;
+  font-size: 30px;
+}
+
+   h3 {
+  color: #FFFF00;
+  text-align: right;
+
+}
+
+p {font-family: verdana;
+  font-size: 20px;
+  color: black;
+  font-size: 14px;
+   text-align: right;
+}
+
+
+.imagine
+	  {
+	  background-color:#d6dce5;
+	  border: 2px solid #7c4aac;
+	  margin:5px
+	  }
+   
+  
+.sansserif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+  
+h2.impact {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+h1.impact {
+  font-family: Impact, Charcoal, sans-serif;
+}
+p.impact {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+table,td,tr {
+  border: 1px solid black;
+}
+
+body {
+  background-color: #white;
+}
+
+table {
+background-color: #808080;
+  color: yellow;
+  border: 3px solid orange;
+	   margin: auto;
+}
+
+
+img {
+  display: block;
+  margin-left: 25%;
+  margin-right: 50%;
+ border-radius: 8px;
+ opacity: 0.8;
+ width="300"
+ height="300
+}
+
+ul{ 
+list-style-position:outside; 
+	  list-style-position:inside;
+	  text-align: right;
+	 
+	  } 
+	  
+.style {
+	display:20px;
+	background-color:#000066
+;
+	
+}
+.1{
+	flex:50%;
+	padding:30px;
+
+}
+
+.imagini{
+	display:flex;
+}
+	  
+	
+
+<img src="Structura.jpg" >
+
+</style>
+
+</head>
+<body class="w3-panel w3-leftbar w3-sand w3-large w3-serif" >
+
+
+<div class="nume" >
+<h1 class="w3-panel w3-leftbar w3-lime w3-xxlarage w3-serif" ><u>TODORAN GIORGIANA IRINA</u></h1>
+</div>
+
+
+
+<h3 class="w3-panel w3-leftbar w3-lime w3-xxlarage w3-serif"><u>E-mail:Todoran.Gh.Giorgiana@utcluj.didatec.ro</u></h3>
+
+ <div class="imagine" >
+
+<h2 class="w3-panel w3-leftbar w3-lime w3-xxlarage w3-serif"  class="51"><u> Structura retelei personale si accesul la internet</u></h2>
+<img id="Structura.jpg" src="Structura.jpg" class="imag"   >
+
+<h2 class="w3-panel w3-leftbar w3-lime w3-xxlarage w3-serif" ><u>Caracteristicile conexiunii la retea</u></h2>
+
+   <ul >
+<li>Adresa MAC:  98-2C-BC-CB-94-B8</li>
+<li>Adresa IPv4: 172.20.10.12</li>
+<li>Adresa IPv6 : fe80::f4b6:2c30:d496:72a9%10/64</li>
+<li>Debit la download: 33 Mbps</li>
+<li>Debit la upload: 21,8 Mbps</li>
+    </ul>
+
+	
+ </div>
+ 
+
+<h2 class="w3-panel w3-leftbar w3-lime w3-xxlarage w3-serif" ><u> Utilizarea resurselor (slideshow)</u></h2>
+
+				<div class="style" ondblclick="show()">
+			<div class="imagini">
+				<h3 class="w3-panel w3-leftbar w3-lime w3-xxlarage w3-serif" >Monitorizare resurse</h3>
+				<div class="1">
+					<img src="1.jpg" style="width:60%">
+				</div>	
+				<div class="1">
+					<img src="2.jpg" style="width:60%">
+				</div>
+				<div class="1">	
+					<img src="3.jpg" style="width:60%">
+				</div>	
+				<div class="1">	
+					<img src="4.jpg" style="width:60%">
+				</div>	
+				<div class="1">	
+					<img src="5.jpg" style="width:60%">
+				</div>	
+				<div class="1">	
+					<img src="6.jpg" style="width:60%">
+				</div>	
+				<div class="1">	
+					<img src="7.jpg" style="width:60%">
+				</div>	
+			</div>
+		</div>
+	
+	<script>		
+var img=0;
+function show(){
+	var x;
+	var slides=document.getElementsByClassName("1");
+	for (x=0;x<slides.length;x++){
+		slides[x].style.display="none";	
+	}
+	img++;
+	if(img>slides.length){img=1}
+	slides[img-1].style.display="block";
+	setTimeout(show,3000);
+}   
+ </script>
+
+<div>
+<h2 class="w3-panel w3-leftbar w3-lime w3-xxlarage w3-serif" ><u>Specificatii tehnice ale statiei principale de lucru</u></h2>
+
+<table > 
+   <tr>
+     <td class="sansserif"> <u> Denumire componenta</u></td>
+     <td class="sansserif" ><u> Producător</u></td>
+     <td class="sansserif" > <u>Parametri </u> </td>
+  </tr>
+  <tr>
+     <td class="sansserif"> PROCESOR </td>
+     <td class="sansserif" >  Intel®</td>
+     <td class="sansserif">Tip procesor Celeron;Model procesor 4205U ;Arhitectura Whiskey Lake;Numar nuclee 2; Frecventa nominala 1.8 GHz; </td>
+  </tr>
+   <tr>
+     <td class="sansserif" >   MEMORIE</td>
+     <td class="sansserif" > Lenovo </td>
+     <td class="sansserif">  Capacitate memorie	4 GB ;Tip memorie	DDR4 ;Numar sloturi	1 ;Frecventa	2133 MHz</td>
+  </tr>
+   <tr>
+     <td class="sansserif"> HARD DISK </td>
+     <td class="sansserif">Lenovo   </td>
+     <td class="sansserif"> Tip stocare	SSD; Capacitate SSD	256 GB; Interfata SSD	SATA 3 </td>
+  </tr>
+</table>
+</div> 
+</body>
+</html>
